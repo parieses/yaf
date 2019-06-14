@@ -20,5 +20,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
         Yaf_Loader::import("Common/Utils.php");
         Yaf_Registry::set("utils",Utils::getInstance());
     }
+    public function _initRedisCache(){
+        Yaf_Loader::import("Cache/RedisCache.php");
+//        $cache = new RedisCache();
+//        Yaf_Registry::set("cache",$cache);
+    }
 
 }
