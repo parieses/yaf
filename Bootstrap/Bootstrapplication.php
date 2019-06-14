@@ -16,11 +16,6 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
         $user = new User();
         $dispatcher->registerPlugin($user);
     }
-    public function _initLog(){
-        Yaf_Loader::import("Log/SeaLog.php");
-        Log::setBasePath();
-        Log::setLogger();
-    }
     public function _initLib(){
         Yaf_Loader::import("Common/Utils.php");
         Yaf_Registry::set("utils",Utils::getInstance());
