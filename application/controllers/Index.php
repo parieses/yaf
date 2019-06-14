@@ -1,5 +1,5 @@
 <?php
-class IndexController extends Yaf_Controller_Abstract {
+class IndexController extends BaseController {
     //取消页面模板
     public function init() {
         Yaf_Dispatcher::getInstance()->disableView();

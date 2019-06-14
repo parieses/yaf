@@ -1,5 +1,6 @@
 <?php
 define("APP_PATH",  realpath(dirname(__FILE__) . '/../')); /* 指向public的上一级 */
+define("APP_MODEL",APP_PATH.'/application/models/');
 $app  = new Yaf_Application(APP_PATH . "/conf/application.ini");
 $app->bootstrap()->getDispatcher()->dispatch(new Yaf_Request_Simple());
 //$app->bootstrap() ;//可选的调用
