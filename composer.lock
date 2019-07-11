@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c5a7b70f0ed059f78c1f978f24a70e4b",
+    "packages": [
+        {
+            "name": "parieses/php-help",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/parieses/php-help.git",
+                "reference": "41fd9df4ebacea6a78fab91ea0367e13a832e9af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/parieses/php-help/zipball/41fd9df4ebacea6a78fab91ea0367e13a832e9af",
+                "reference": "41fd9df4ebacea6a78fab91ea0367e13a832e9af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpHelp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mr. 亮先生",
+                    "email": "1695699447@qq.com"
+                }
+            ],
+            "description": "Function extension of PHP",
+            "homepage": "https://blog.csdn.net/pariese",
+            "time": "2019-07-11T05:29:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

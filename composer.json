@@ -1,0 +1,5 @@
+{
+    "require": {
+        "parieses/php-help": "^0.1.0"
+    }
+}

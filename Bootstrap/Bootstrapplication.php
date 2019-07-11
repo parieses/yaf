@@ -7,6 +7,10 @@
  */
 class Bootstrap extends Yaf_Bootstrap_Abstract{
 
+    public function _initAutoload()
+    {
+        require __DIR__ . "/../vendor/autoload.php";
+    }
     public function _initConfig() {
         $config = Yaf_Application::app()->getConfig();
         Yaf_Registry::set("config", $config);

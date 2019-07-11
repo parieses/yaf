@@ -1,0 +1,41 @@
+[
+    {
+        "name": "parieses/php-help",
+        "version": "0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/parieses/php-help.git",
+            "reference": "41fd9df4ebacea6a78fab91ea0367e13a832e9af"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/parieses/php-help/zipball/41fd9df4ebacea6a78fab91ea0367e13a832e9af",
+            "reference": "41fd9df4ebacea6a78fab91ea0367e13a832e9af",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0"
+        },
+        "time": "2019-07-11T05:29:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpHelp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mr. 亮先生",
+                "email": "1695699447@qq.com"
+            }
+        ],
+        "description": "Function extension of PHP",
+        "homepage": "https://blog.csdn.net/pariese"
+    }
+]
